@@ -1,0 +1,1 @@
+(function(e){typeof define=="function"&&define.amd?define(e):e()})(function(){"use strict";(function(e){const t=e.document.querySelector("#my-form"),n=e.document.createElement("h1");n.innerHTML="Hello World",t.appendChild(n)})(window)});
