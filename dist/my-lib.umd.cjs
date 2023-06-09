@@ -1,1 +1,1 @@
-(function(e){typeof define=="function"&&define.amd?define(e):e()})(function(){"use strict";(function(e){const t=e.document.querySelector("#my-form"),n=e.document.createElement("h1");n.innerHTML="Hello World",t.appendChild(n)})(window)});
+(function(e){typeof define=="function"&&define.amd?define(e):e()})(function(){"use strict";(function(e){const n=e.document.querySelector("#my-form"),o=n.getAttribute("data-mi-formulario")||"Hello World",t=e.document.createElement("h1");t.innerHTML=o,n.appendChild(t)})(window)});
